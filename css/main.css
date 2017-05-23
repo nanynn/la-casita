@@ -1,0 +1,140 @@
+body{
+	margin:0;
+	background-color: #CEFFF1;
+}
+
+/*Exterior*/
+.exterior{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	margin:0;
+}
+
+.sol{
+	width: 100px;
+	height: 100px;
+	background-color: #FAFF73;
+	border-radius: 50%;
+	position: relative;
+	left: 30px;
+	top: 20px;
+}
+
+.pasto{
+	width: 100%;
+	height: 80px;
+	background-color: #1B5517;
+	position: absolute;
+	bottom: 0;
+}
+
+/*casa*/
+.techo{
+	width: 300px;
+	height: 0px;
+	border-right: 80px solid transparent;
+	border-left: 80px solid transparent;
+	border-bottom: 100px solid #000;
+	position: absolute;
+	right: 30px;
+	bottom: 330px;
+	
+}
+
+.chimenea{
+	width: 25px;
+	height: 60px;
+	background-color: #CB71BD;
+	position: absolute;
+	right: 130px;
+	bottom: 380px;
+	z-index: 10;
+}
+.humo{
+	background-color: #BFBFBF;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	position: absolute;
+	right: 130px;
+	top: 120px;
+}
+.humo-dos{
+	background-color: #BFBFBF;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	position: absolute;
+	right: 150px;
+	top: 80px;
+}
+.primer-piso{
+	width: 400px;
+	height: 250px;
+	background-color: #996633;
+	position: absolute;
+	bottom: 80px;
+	right: 60px;
+}
+
+.puerta{
+	width: 130px;
+	height: 200px;
+	background-color: #BFBFBF;
+	position: absolute;
+	bottom: 80px;
+	right: 300px;
+}
+.corazon{
+	position: absolute;
+	width: 80px;
+	height: 70px;
+	bottom: 180px;
+	left: 694px;
+}
+
+.corazon:before, .corazon:after{
+	position: absolute;
+	content: '';
+	left: 50px;
+	top: 0;
+	width: 50px;
+	height: 80px;
+	background-color: #DA7BC8;
+	-moz-border-radius: 50px 50px 0 0; 
+    border-radius: 50px 50px 0 0; 
+    -webkit-transform: rotate(-45deg); 
+    -moz-transform: rotate(-45deg); 
+    -ms-transform: rotate(-45deg); 
+    -o-transform: rotate(-45deg); 
+    transform: rotate(-45deg); 
+    -webkit-transform-origin: 0 100%; 
+    -moz-transform-origin: 0 100%; 
+    -ms-transform-origin: 0 100%; 
+    -o-transform-origin: 0 100%; 
+    transform-origin: 0 100%;
+}
+.corazon:after { 
+    left: 0; 
+    -webkit-transform: rotate(45deg); 
+    -moz-transform: rotate(45deg); 
+    -ms-transform: rotate(45deg); 
+    -o-transform: rotate(45deg); 
+    transform: rotate(45deg); 
+    -webkit-transform-origin: 100% 100%; 
+    -moz-transform-origin: 100% 100%; 
+    -ms-transform-origin: 100% 100%; 
+    -o-transform-origin: 100% 100%; 
+    transform-origin :100% 100%; 
+}
+
+.ventana{
+	height: 100px;
+	width: 100px;
+	background-color: #DA3EB5;
+	position: absolute;
+	right: 150px;
+	bottom: 180px;
+	z-index: 10;
+}
